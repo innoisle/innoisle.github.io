@@ -168,6 +168,7 @@ header {
             h1 {
                 font-weight: 900;
                 //text-transform: uppercase;
+                color: rgba( $theme-primary, .7 );
                 font-size: 45px;
                 margin-top: 0;
                 margin-bottom: 0;
@@ -180,7 +181,7 @@ header {
             }
             p {
                 font-weight: 300;
-                color: $theme-primary;
+                color: rgba( $theme-primary, .7 );
                 font-size: 16px;
                 margin-bottom: 50px;
                 margin-left: 0px;
