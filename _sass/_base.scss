@@ -173,18 +173,21 @@ header {
             }
             hr {
                 margin: 30px auto;
-                color: rgba(white, .0);
+                border-color: rgba(white, .0);
             }
             br {
                 margin: 30px auto;
             }
             p {
-                font-weight: 300;
-                color: rgba( $theme-primary, .7 );
+                font-weight: 500;
+                color: rgba( $theme-primary, .9 );
                 font-size: 16px;
                 margin-bottom: 50px;
                 margin-left: 0px;
                 font-family:sans-serif;
+            }
+            .bth{
+                background-color: #bfcbdc;
             }
         }
     }
