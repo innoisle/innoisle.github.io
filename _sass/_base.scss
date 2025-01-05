@@ -155,7 +155,12 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: left;
-    background-image: url('../img/header.jpg');
+    .innosile_header{
+        background-image: url('../img/header.jpg');
+    }
+    .attaky_header{
+        background-image: url('../img/attaky_bg.jpg');
+    }
     text-align: left;
     color: white;
     .header-content {
