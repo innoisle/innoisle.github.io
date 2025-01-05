@@ -149,18 +149,14 @@ aside {
 
 // Homepage Header
 
-header {
+header .innosile_header {
     position: relative;
     width: 100%;
     min-height: auto;
     @include background-cover;
+    
+    background-image: url('../img/header.jpg');
     background-position: left;
-    .innosile_header{
-        background-image: url('../img/header.jpg');
-    }
-    .attaky_header{
-        background-image: url('../img/attaky_bg.jpg');
-    }
     text-align: left;
     color: white;
     .header-content {
@@ -214,6 +210,72 @@ header {
                     max-width: 40%;
                     //margin-left: auto;
                     //margin-right: auto;
+                }
+            }
+        }
+    }
+}
+
+header .attaky_header{
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    @include background-cover;
+    background-image: url('../img/attaky_bg.jpg');
+    background-position: center;
+    text-align: center;
+    color: white;
+    .header-content {
+        position: relative;
+        text-align: left;
+        padding: 100px 15px 100px;
+        width: 100%;
+        .header-content-inner {
+            h1 {
+                font-weight: 750;
+                //text-transform: uppercase;
+                color: rgba($theme-primary, 0.90);
+                margin-top: 50px;
+                margin-bottom: 0;
+            }
+            hr {
+                margin: 30px auto;
+                border-color: rgba(white, .0);
+            }
+            br {
+                margin: 30px auto;
+            }
+            p {
+                font-weight: 545;
+                color: rgba( $theme-primary, .9 );
+                font-size: 16px;
+                margin-bottom: 50px;
+                //margin-left: 0px;
+                font-family:sans-serif;
+            }
+            .bth{
+                background-color: #bfcbdc;
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        min-height: 100%;
+        .header-content {
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            padding: 0 50px;
+            .header-content-inner {
+                max-width: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+                p {
+                    font-size: 18px;
+                    max-width: 40%;
+                    margin-left: auto;
+                    margin-right: auto;
                 }
             }
         }
