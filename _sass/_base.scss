@@ -157,11 +157,11 @@ header {
     @include background-cover;
     background-position: center;
     background-image: url('../img/header.jpg');
-    text-align: center;
+    text-align: left;
     color: white;
     .header-content {
         position: relative;
-        text-align: center;
+        text-align: left;
         padding: 100px 15px 100px;
         width: 100%;
         .header-content-inner {
