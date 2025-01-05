@@ -227,14 +227,14 @@ header.attaky_header{
     color: white;
     .header-content {
         position: relative;
-        text-align: left;
+        text-align: center;
         padding: 100px 15px 100px;
         width: 100%;
         .header-content-inner {
             h1 {
                 font-weight: 750;
                 //text-transform: uppercase;
-                color: rgba($theme-primary, 0.90);
+                color: rgba(c72b2f, 0.90);
                 margin-top: 50px;
                 margin-bottom: 0;
             }
