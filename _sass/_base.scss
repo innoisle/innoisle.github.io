@@ -34,7 +34,7 @@ h4,
 h5,
 h6 {
     @include sans-serif-font;
-    color: $theme-primary;
+    color: rgba($theme-primary, 0.7);
 }
 
 p {
@@ -121,7 +121,7 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .7);
+            color: rgba(white, .9);
             &:hover {
                 color: white;
             }
@@ -166,10 +166,8 @@ header {
         width: 100%;
         .header-content-inner {
             h1 {
-                font-weight: 900;
+                font-weight: 750;
                 //text-transform: uppercase;
-                color: rgba( $theme-primary, .7 );
-                font-size: 45px;
                 margin-top: 0;
                 margin-bottom: 0;
             }
