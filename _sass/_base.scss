@@ -34,6 +34,7 @@ h4,
 h5,
 h6 {
     @include sans-serif-font;
+    color: $theme-primary;
 }
 
 p {
