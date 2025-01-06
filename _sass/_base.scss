@@ -155,14 +155,14 @@ header.innoisle_header {
     min-height: auto;
     @include background-cover;
     
-    //background-image: 
-    //      linear-gradient(
-    //        rgba(0, 0, 0, 0.5),
-    //        rgba(0, 0, 0, 0.5)
-    //      ),
-    //      url('../img/header.jpg');
+    background-image: 
+          linear-gradient(
+            rgba(0, 0, 0, 0.9),
+            rgba(0, 0, 0, 0.9)
+          ),
+          url('../img/header.jpg');
     
-    background-image: url('../img/header.jpg');
+    //background-image: url('../img/header.jpg');
 
     background-position: left;
     text-align: left;
@@ -177,7 +177,7 @@ header.innoisle_header {
                 font-weight: 750;
                 //text-transform: uppercase;
                 //color: rgba($theme-primary, 0.90);
-                border-color: rgba(white, .95);
+                color: rgba(white, .95);
                 margin-top: 50px;
                 margin-bottom: 0;
             }
@@ -189,9 +189,9 @@ header.innoisle_header {
                 margin: 30px auto;
             }
             p {
-                font-weight: 545;
+                font-weight: 550;
                 //color: rgba( $theme-primary, .9 );
-                border-color: rgba(white, .95);
+                color: rgba(white, .95);
                 font-size: 16px;
                 margin-bottom: 20px;
                 margin-left: 0px;
