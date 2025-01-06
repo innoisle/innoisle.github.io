@@ -174,7 +174,8 @@ header.innoisle_header {
             h1 {
                 font-weight: 750;
                 //text-transform: uppercase;
-                color: rgba($theme-primary, 0.90);
+                //color: rgba($theme-primary, 0.90);
+                border-color: rgba(white, .95);
                 margin-top: 50px;
                 margin-bottom: 0;
             }
@@ -187,7 +188,8 @@ header.innoisle_header {
             }
             p {
                 font-weight: 545;
-                color: rgba( $theme-primary, .9 );
+                //color: rgba( $theme-primary, .9 );
+                border-color: rgba(white, .95);
                 font-size: 16px;
                 margin-bottom: 20px;
                 margin-left: 0px;
