@@ -51,6 +51,11 @@ p {
     color: white;
 }
 
+.bg-white {
+    background-color: white;
+    color: $theme-primary;
+}
+
 .text-faded {
     color: rgba(white, .7);
 }
